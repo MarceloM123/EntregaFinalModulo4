@@ -23,8 +23,8 @@ En la raíz de este repositorio, encontrarás lo siguiente:
 ### Archivo
 
 - **VideoModulo4**: Video que demuestra el funcionamienmto de la interfaz ya conectada con el microcontrolador.
-- 
-- **VideoModulo4**: Video que demuestra el funcionamienmto de la interfaz ya conectada con el microcontrolador.
+
+- **train_data.csv**: Archivo para probar la funcionalidad de importacion.
 
 ## Instalacion
 
