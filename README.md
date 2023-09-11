@@ -22,8 +22,8 @@ En la raíz de este repositorio, encontrarás lo siguiente:
 ## Instalacion
 
 - Descargar ambos archivos **interfaz_modulo4_equipo7** y **Codigos ESP32**.
-- Configurar el ruteo con de acuerdo al ambiente utilizado: Que la interfaz corra en el puerto 3000 y el codigo ESP corra en el puerto 8001, los archivos ya estan configurados de esta manera por default. De esta manera ambos podran recibir y mandar datos.
-- Configurar el archivo de main.py e ingresar las caracterisitcas de su WIFI, nombre y contra. 
+- Configurar el ruteo con de acuerdo al ambiente utilizado: Que la interfaz corra en el puerto 3000 y el codigo ESP corra en el puerto 8001, los archivos ya estan configurados de esta manera por default. Asi ambos podran recibir y mandar datos.
+- Configurar el archivo de main.py en la carpeta de ESP32 e ingresar las caracterisitcas de su WIFI, nombre y contra. 
 
 
     
