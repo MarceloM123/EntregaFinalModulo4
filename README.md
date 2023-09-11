@@ -18,10 +18,14 @@ En la raíz de este repositorio, encontrarás lo siguiente:
 ### Archivo
 
 - **VideoModulo4**: Video que demuestra el funcionamienmto de la interfaz ya conectada con el microcontrolador.
+- 
+- **VideoModulo4**: Video que demuestra el funcionamienmto de la interfaz ya conectada con el microcontrolador.
 
 ## Instalacion
 
 - Descargar ambos archivos **interfaz_modulo4_equipo7** y **Codigos ESP32**.
+- Instalar nodejs en el ambiente
+- Al abrir el archivo de **interfaz_modulo4_equipo7** en un IDE, es necesario utilizar el comando de **npm install** para instalar las dependencias.
 - Configurar el ruteo con de acuerdo al ambiente utilizado: Que la interfaz corra en el puerto 3000 y el codigo ESP corra en el puerto 8001, los archivos ya estan configurados de esta manera por default. Asi ambos podran recibir y mandar datos.
 - Configurar el archivo de main.py en la carpeta de ESP32 e ingresar las caracterisitcas de su WIFI, nombre y contra. 
 
