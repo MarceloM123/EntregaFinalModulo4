@@ -14,6 +14,11 @@ En la raíz de este repositorio, encontrarás lo siguiente:
 - **interfaz_modulo4_equipo7**: En esta carpeta se aborda el contenido de la interfaz y su implementacion en *NEXT.JS*.
 
 - **Codigos ESP32**: En esta carpeta se encuentra la entrega de la implementacion del modelo en el microcontrolador.
+    - boot.py
+    - main.py
+    - LogisticRegression.py
+    - lcd_api.py
+    - lcd_i2c.py
 
 ### Archivo
 
@@ -24,10 +29,12 @@ En la raíz de este repositorio, encontrarás lo siguiente:
 ## Instalacion
 
 - Descargar ambos archivos **interfaz_modulo4_equipo7** y **Codigos ESP32**.
-- Instalar nodejs en el ambiente
+- Instalar nodejs en el ambiente.
 - Al abrir el archivo de **interfaz_modulo4_equipo7** en un IDE, es necesario utilizar el comando de **npm install** para instalar las dependencias.
 - Configurar el ruteo con de acuerdo al ambiente utilizado: Que la interfaz corra en el puerto 3000 y el codigo ESP corra en el puerto 8001, los archivos ya estan configurados de esta manera por default. Asi ambos podran recibir y mandar datos.
-- Configurar el archivo de main.py en la carpeta de ESP32 e ingresar las caracterisitcas de su WIFI, nombre y contra. 
+- Abrir el *file manager* del ESP32 y agregar todos los archivos que estan bajo la carpeta "Codigos ESP32".
+- Cambiar el *ssid* y *password* dentro del "boot.py" para conectar al internet.
+- Correr el código estando dentro del main.py.
 
 
     
